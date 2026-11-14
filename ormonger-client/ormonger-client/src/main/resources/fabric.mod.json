@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ormonger",
+  "version": "${version}",
+  "name": "Ormonger Client",
+  "description": "Modular utility and survival client mod.",
+  "authors": ["Ormonger"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ormonger.OrmongerClient"]
+  },
+  "mixins": ["ormonger.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
